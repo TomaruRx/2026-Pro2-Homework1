@@ -11,7 +11,7 @@ int main(void){
     
 // --- りんごの入力 ---
     while (1) {
-        printf(" \x1b[36mりんご\x1b[39m:");
+        printf("\x1b[36mりんご\x1b[39m:");
         if (scanf("%f", &temp) == 1) {
             if (temp < 0) {
                 printf("  エラー：負の数は入力できません。\n");
@@ -27,7 +27,7 @@ int main(void){
 
     // --- オレンジの入力 ---
     while (1) {
-        printf(" \x1b[36mオレンジ\x1b[39m:");
+        printf("\x1b[36mオレンジ\x1b[39m:");
         if (scanf("%f", &temp) == 1) {
             if (temp < 0) {
                 printf("  エラー：負の数は入力できません。\n");
@@ -43,7 +43,7 @@ int main(void){
 
     // --- 苺の入力 ---
     while (1) {
-        printf(" \x1b[36m苺\x1b[39m:");
+        printf("\x1b[36m苺\x1b[39m:");
         if (scanf("%f", &temp) == 1) {
             if (temp < 0) {
                 printf("  エラー：負の数は入力できません。\n");
@@ -63,5 +63,6 @@ int main(void){
     sum = apple*x + orange*y + berry*z;
     printf("合計は\x1b[46m%d円\x1b[49mです", sum);
 
+    getchar();getchar();
     return 0;
 }

@@ -20,5 +20,6 @@ int main(void){
     s = (base*height)/2;
     printf("–ÊÏ‚Í\x1b[46m%lf\x1b[49m‚Å‚·", s);
 
+    getchar();getchar();
     return 0;
 }

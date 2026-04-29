@@ -4,7 +4,7 @@ int main(void){
     double x,y,z;
     int avr;
     
-    printf("2‚Â‚ÌÀ”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n À”x:");
+    printf("2‚Â‚ÌÀ”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\nÀ”x:");
     scanf("%lf", &x);
     printf("À”y:");
     scanf("%lf", &y);
@@ -13,5 +13,6 @@ int main(void){
     avr = (int)((x+y+z) / 3.0 + 0.5);
     printf("‚±‚ê‚ç‚Ì’l‚Ì•½‹Ï‚Í%d‚Å‚·", avr);
 
+    getchar();getchar();
     return 0;
 }
