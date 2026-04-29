@@ -47,6 +47,6 @@ int main(void){
         printf("%dl‘«‚è‚Ü‚¹‚ñ", -over);
     }
 
-    getchar();getchar();
+    getchar();
     return 0;
 }
