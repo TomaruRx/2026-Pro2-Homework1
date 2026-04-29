@@ -3,14 +3,14 @@
 int main(void){
     double x,y,z,avr;
     
-    printf("2‚Â‚ÌÀ”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\nÀ”x:");
+    printf("3‚Â‚ÌÀ”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\nÀ”x:");
     scanf("%lf", &x);
     printf("À”y:");
     scanf("%lf", &y);
     printf("À”z:");
     scanf("%lf", &z);
     avr = (x+y+z) / 3.0;
-    printf("‚±‚ê‚ç‚Ì’l‚Ì•½‹Ï‚Í%lf‚Å‚·", avr);
+    printf("‚±‚ê‚ç‚Ì’l‚Ì•½‹Ï‚Í%g‚Å‚·", avr);
 
     getchar();getchar();
     return 0;
